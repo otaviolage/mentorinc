@@ -14,7 +14,7 @@ export default function HTML({
   body,
 }) {
   return (
-    <html {...htmlAttributes} basename={process.env.PUBLIC_URL}>
+    <html {...htmlAttributes} basename={'https://otaviolage.github.io/mentorinc/'}>
       <head>
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
